@@ -1,0 +1,21 @@
+let str= "sbcde";
+let temp="aaaaa";
+
+let count = (a) =>{
+  for (var i=0;i<str.length;i++){
+ 
+    if (i==3){
+      i=4;
+      
+    }
+      temp[i]=a[i];
+      console.log(i);
+      console.log(temp[i]);
+      console.log(a[i]);
+ 
+  }return console.log(temp);
+
+}
+ 
+count(str);
+
